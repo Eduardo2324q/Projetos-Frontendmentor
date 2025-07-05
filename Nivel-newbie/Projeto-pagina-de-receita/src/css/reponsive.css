@@ -1,0 +1,25 @@
+@media(max-width: 900px) {
+    html {
+        background-color: #fff;
+    }
+    body {
+        margin: 0;
+        padding: 40px 20px;
+        align-items: flex-start;
+    }
+    .container{
+        max-width: 100%;
+        border-radius: 0;
+    }
+
+    .container .img-omelete {
+        padding: 20px;
+    }
+
+    .container .img-omelete img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+}
