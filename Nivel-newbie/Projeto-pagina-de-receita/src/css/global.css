@@ -1,0 +1,39 @@
+hr {
+    border: 1px solid var(--cor-stone-150);
+    margin: 20px 35px 15px 35px;
+    
+}
+
+.marker-padrao {
+    font-family: var(--fonte-secundaria);
+    font-size: 16px;
+    color: var(--cor-stone-900);
+    font-weight: var(--peso-padrao);
+    padding: 0 0 8px 20px;
+} 
+
+.marker-padrao::marker {
+    color: var(--cor-escura);
+    font-size: 10px;
+}
+
+.padding-left-1 {
+    padding-left: 25px;
+}
+
+.padding-left-2 {
+    padding-left: 35px;
+}
+
+.titulo-padrao {
+    color: var(--cor-escura);
+    font-family: var(--fonte-primaria);
+    font-weight: var(--peso-padrao);
+    padding: 15px;
+}
+
+.fonte-texto {
+    font-family: var(--fonte-secundaria);
+    font-weight: var(--peso-padrao);
+    color: var(--cor-stone-900);
+}

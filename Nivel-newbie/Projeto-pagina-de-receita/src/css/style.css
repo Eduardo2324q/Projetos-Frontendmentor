@@ -7,6 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     padding-top: 70px;
+    padding-bottom: 50px;
   }
 
 .container {
@@ -42,8 +43,6 @@ body {
 }
 
 .receita .texto-receita {
-    font-family: var(--fonte-secundaria);
-    font-weight: var(--peso-padrao);
     padding-bottom: 30px;
 }
 
@@ -66,14 +65,40 @@ body {
     padding-left: 35px;
 }
 
-.preparacao .lista-preparacao li {
-    font-family: var(--fonte-secundaria);
-    font-size: 16px;
-    font-weight: var(--peso-padrao);
-    padding: 0 0 8px 20px;
+
+.padding-left-1 ol li::marker {
+    font-size: 12px;
+    font-weight: 800;
+} 
+
+.padding-left-1 .texto-nutricao {
+    padding: 0 0 20px 15px;
 }
 
-.preparacao .lista-preparacao li::marker {
-    color: var(--cor-escura);
-    font-size: 10px;
+.container-tabela {
+    margin-right: 35px;
 }
+
+.container-tabela table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-right: 35px;
+
+}
+
+.padding-left-1 td {
+    border-bottom: 1px solid var(--cor-stone-150);
+    padding: 10px 0 10px 35px;
+    color: var(--cor-stone-900);
+    font-weight: 400;
+}
+
+.padding-left-1 tr:last-child td {
+    border-bottom: none;
+    padding-bottom: 50px;
+  }
+
+.cor-escura-tabela {
+    color: var(--cor-escura);
+}
+  
