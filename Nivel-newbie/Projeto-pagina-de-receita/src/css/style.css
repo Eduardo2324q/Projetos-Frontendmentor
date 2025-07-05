@@ -1,0 +1,79 @@
+html {
+    background-color: var(--cor-clara);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+  }
+
+.container {
+    max-width: 900px;
+    background-color: #fff;
+    border-radius: 20px;
+    
+
+}
+
+.container .img-omelete {
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+}
+
+.container .img-omelete img {
+    max-width: 830px;
+    border-radius: 15px;
+}
+
+.receita {
+    padding: 0 35px 0 35px;
+    max-width: 900px;
+}
+
+.receita .titulo-receita {
+    font-family: var(--fonte-primaria);
+    font-weight: var(--peso-padrao);
+    color: var(--cor-stone-900);
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+
+.receita .texto-receita {
+    font-family: var(--fonte-secundaria);
+    font-weight: var(--peso-padrao);
+    padding-bottom: 30px;
+}
+
+.preparacao {
+    background-color: var(--cor-clara);
+    max-width: 860px;
+    margin-left: 35px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.preparacao .titulo-preparacao {
+    padding: 0 0 15px 8px;
+    color: var(--cor-escura);
+    font-family: var(--fonte-secundaria);
+    font-weight: 600;
+}
+
+.preparacao .lista-preparacao {
+    padding-left: 35px;
+}
+
+.preparacao .lista-preparacao li {
+    font-family: var(--fonte-secundaria);
+    font-size: 16px;
+    font-weight: var(--peso-padrao);
+    padding: 0 0 8px 20px;
+}
+
+.preparacao .lista-preparacao li::marker {
+    color: var(--cor-escura);
+    font-size: 10px;
+}
