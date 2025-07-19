@@ -46,5 +46,5 @@ A proposta ajuda no aperfeiçoamento de habilidades em HTML, CSS e boas prática
 
 ## 🧑‍💻 Autor
 
-> Desenvolvido por **Eduardo** como parte do aprendizado em desenvolvimento front-end.  
-> Sinta-se à vontade para contribuir ou se inspirar para seus próprios estudos!
+ Desenvolvido por **Eduardo** como parte do aprendizado em desenvolvimento front-end.  
+ Sinta-se à vontade para contribuir ou se inspirar para seus próprios estudos!
