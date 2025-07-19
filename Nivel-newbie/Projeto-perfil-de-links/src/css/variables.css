@@ -1,0 +1,6 @@
+:root {
+    --cor-fundo: hsl(0, 0%, 8%);
+    --cor-card: hsl(0, 0%, 12%);
+    --cor-lista: hsl(0, 0%, 20%);
+    --cor-clara: hsl(75, 94%, 57%);
+}
