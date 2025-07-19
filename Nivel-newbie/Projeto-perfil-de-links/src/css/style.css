@@ -1,6 +1,5 @@
 body {
     background-color: var(--cor-fundo);
-
     font-family: "Inter", sans-serif;
 }
 
@@ -72,4 +71,3 @@ body {
 .lista li:hover a {
     color: #000;
 }
-
