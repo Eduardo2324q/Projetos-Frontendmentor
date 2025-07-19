@@ -48,3 +48,5 @@ A proposta ajuda no aperfeiçoamento de habilidades em HTML, CSS e boas prática
 
  Desenvolvido por **Eduardo** como parte do aprendizado em desenvolvimento front-end.  
  Sinta-se à vontade para contribuir ou se inspirar para seus próprios estudos!
+
+ 
