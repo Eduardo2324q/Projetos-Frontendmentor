@@ -39,6 +39,11 @@ Durante o desenvolvimento, enfrentei alguns desafios interessantes que contribu�
 - Organização de estilos com CSS modularizado (reset, variáveis e principal)  
 - Uso eficaz de fontes externas e hierarquia visual com `font-family`, `letter-spacing`, `font-weight` etc.
 
+## 🙌 Créditos
+
+Este projeto foi desenvolvido com base em um desafio do [Frontend Mentor](https://www.frontendmentor.io).  
+A proposta ajuda no aperfeiçoamento de habilidades em HTML, CSS e boas práticas de layout responsivo.
+
 ## 🧑‍💻 Autor
 
 > Desenvolvido por **Eduardo** como parte do aprendizado em desenvolvimento front-end.  
