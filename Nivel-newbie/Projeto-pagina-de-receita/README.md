@@ -21,7 +21,7 @@ Este projeto apresenta:
 
 ## 📸 Preview
 
-![Imagem do Projeto](/src/images/screencapture-127-0-0-1-5501-index-html-2025-07-18-12_03_53.png)
+![Imagem do Projeto](./src/images/screencapture-127-0-0-1-5501-index-html-2025-07-18-12_03_53.png)
 
 ## 💡 Desafios Enfrentados
 
