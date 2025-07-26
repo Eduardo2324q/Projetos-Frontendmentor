@@ -18,27 +18,37 @@
 </head>
 
 <body>
-    <main>
-        <section>
+    <main class="container">
+        <section class="container-resultado">
             <h1>Seu Resultado</h1>
-            <div>
-                <p>76</p>
-                <p>de 100</p>
+            <div class="resultado">
+                <p class="numero-resultado-1">76</p>
+                <p class="numero-resultado-2">de 100</p>
             </div>
 
             <h2>Ótimo</h2>
             <p>Você teve um desempenho melhor do que 65% das pessoas que fizeram esses testes.</p>
         </section>
-
-        <section>
+        <section class="container-resumo">
             <h2>Resumo</h2>
             <ul>
-                <li><img src="./src/images/icon-reaction.svg" alt="Icone de raio">Reação 80 / 100</li>
-                <li><img src="./src/images/icon-memory.svg" alt="Icone de Cerebro">Memória 92 / 100</li>
-                <li><img src="./src/images/icon-verbal.svg" alt="Balão de conversa">Verbal 61 / 100</li>
-                <li><img src="./src/images/icon-visual.svg" alt="Icone de olho">Visual 73 / 100</li>
+                <li class="card-reacao">
+                    <span class="reacao-texto"><img src="./src/images/icon-reaction.svg" alt="Icone de raio">Reação</span>
+                    <span class="numero-texto"> <span class="numero-negrito">80</span> / 100</span>
+                </li>
+                <li class="card-memoria">
+                    <span class="texto-memoria"><img src="./src/images/icon-memory.svg" alt="Icone de Cerebro">Memória</span>
+                    <span class="numero-texto"><span class="numero-negrito">92</span> / 100</span>
+                </li>
+                <li class="card-conversa">
+                    <span class="texto-conversa"><img src="./src/images/icon-verbal.svg" alt="Balão de conversa">Verbal</span>
+                    <span class="numero-texto"><span class="numero-negrito">61</span> / 100</span>
+                </li>
+                <li class="card-olho">
+                    <span class="texto-olho"><img src="./src/images/icon-visual.svg" alt="Icone de olho">Visual</span>
+                    <span class="numero-texto"><span class="numero-negrito">73</span> / 100</span></li>
             </ul>
-            <button>Continuar</button>
+            <button class="btn-continuar">Continuar</button>
         </section>
     </main>
 </body>
