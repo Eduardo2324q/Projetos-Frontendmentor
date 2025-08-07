@@ -13,13 +13,17 @@ body {
     gap: 0px;
 }
 
-.imagem img {
+.imagem .img-desktop {
     display: block;
     width: 350px;
     height: 480px;
     border-radius: 10px;
     border-bottom-right-radius: 0px;
     border-top-right-radius: 0px;
+}
+
+.imagem .img-mobile {
+    display: none;
 }
 
 .container-descricao {
@@ -94,7 +98,7 @@ body {
     transition: 0.3s;
 }
 
-.btn-carrinho:hover {
+.container-descricao .btn-carrinho:hover {
     background-color: var(--cor-primaria-700);
     cursor: pointer;
 }
