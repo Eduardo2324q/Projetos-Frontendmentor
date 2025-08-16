@@ -1,0 +1,125 @@
+body {
+    background: url(../images/pattern-background-desktop.svg) repeat-x top;
+    background-color: var(--cor-blue-100);
+    font-family: "Red Hat Display", sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-white);
+    width: 320px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.card figure img {
+    width: 320px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card header h1 {
+    text-align: center;
+    color: var(--cor-blue-950);
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 25px;
+}
+
+.card header p {
+    text-align: center;
+    color: var(--cor-gray-600);
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.6;
+    margin-top: 15px;
+    padding: 0 25px;
+}
+
+.plano {
+    background-color: var(--cor-blue-50);
+    width: 270px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 18px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.plano img {
+    width: 40px;
+    height: 40px;
+    align-items: center;
+}
+
+.plano div {
+    margin-left: -40px;
+}
+
+.plano div strong {
+    color: var(--cor-blue-950);
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.plano div p {
+    color: var(--cor-gray-200);
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.plano a {
+    color: var(--cor-blue-700);
+    font-size: 14px;
+    font-weight: 700;
+    transition: all 0.2s ease;
+}
+
+.plano a:active {
+    text-decoration: none;
+    color: var(--cor-gray-200);
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .btn-pag {
+    margin: 5px 20px 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--cor-blue-700);
+    color: var(--cor-white);
+    font-weight: 700;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+}
+
+footer .btn-pag:active {
+    background-color: var(--cor-gray-600);
+    cursor: pointer;
+}
+
+footer .btn-cancel {
+    background-color: var(--cor-white);
+    color: var(--cor-gray-200);
+    font-weight: 700;
+    transition: all 0.2s ease;
+}
+
+.btn-cancel:active {
+    cursor: pointer;
+    color: var(--cor-blue-950);
+}
