@@ -1,4 +1,101 @@
-figure img {
-    width: 100px;
-    height: 100px;
+body {
+    background-color: var(--cor-neutra-950);
+    font-family: "Outfit", sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: var(--cor-neutra-900);
+    height: 520px;
+    width: 320px;
+    border-radius: 15px;
+}
+
+.card .card-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.card-img .nft-img {
+    width: 290px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.card h1 {
+    font-size: 18px;
+    margin: 20px;
+    font-weight: 600;
+    color: var(--cor-branca);
+}
+
+.card .descricao {
+    margin: 20px;
+    color: var(--cor-primaria-500);
+}
+
+.card ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+
+}
+
+.card ul li img {
+    width: 12px;
+    height: 15px;
+}
+
+.card ul li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+}
+
+.card ul .etherium {
+    color: var(--cor-primaria-400);
+}
+
+.card ul .relogio {
+    color: var(--cor-primaria-500);
+}
+
+hr {
+    width: 280px;
+    margin: 20px;
+    background-color: var(--cor-primaria-500);
+    border: none;
+    height: 1px;
+    background-color: var(--cor-primaria-500);
+}
+
+.footer {
+    display: flex;
+    margin: 30px 0 0 20px;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer .img-autor {
+    width: 40px;
+    border: 1px solid var(--cor-branca);
+    border-radius: 50%;
+}
+
+.footer p {
+    color: var(--cor-primaria-500);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.footer p strong {
+    color: var(--cor-branca);
 }
