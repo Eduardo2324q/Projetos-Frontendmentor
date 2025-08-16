@@ -1,0 +1,10 @@
+:root {
+    --cor-primaria-400: hsl(178, 100%, 50%);
+    --cor-primaria-500: hsl(215, 51%, 70%);
+
+    --cor-neutra-800: hsl(215, 32%, 27%);
+    --cor-neutra-900: hsl(216, 50%, 16%);
+    --cor-neutra-950: hsl(215, 32%, 27%);
+
+    --cor-branca: hsl(0, 0%, 100%);
+}
