@@ -1,0 +1,11 @@
+:root {
+    --navy-color-950: hsl(233, 47%, 7%);
+    --blue-color-950: hsl(244, 37%, 16%);
+    --purple-color-500: hsl(277, 64%, 61%);
+
+    --white-main: hsl(0, 0%, 100%);
+    --white-paragraph: hsla(0, 0%, 100%, 0.75);
+    --white-stat: hsla(0, 0%, 100%, 0.6);
+
+    --font-weight-main: 400;
+}
