@@ -7,5 +7,6 @@
     --white-paragraph: hsla(0, 0%, 100%, 0.75);
     --white-stat: hsla(0, 0%, 100%, 0.6);
 
-    --font-weight-main: 400;
+    --font-inter: "Inter", sans-serif;
+    --font-lexend: "Lexend Deca", sans-serif;
 }
