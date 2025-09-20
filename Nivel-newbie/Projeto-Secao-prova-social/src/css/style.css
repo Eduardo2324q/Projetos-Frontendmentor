@@ -19,6 +19,8 @@ body {
     flex-direction: column;
 }
 
+/* Parte de cima do projeto */
+
 .container-top {
     display: flex;
     justify-content: center;
@@ -82,4 +84,74 @@ body {
     color: var(--color-primary-dark);
     font-weight: 700;
     font-size: 1.6rem;
+}
+
+/* Parte de baixo do projeto */
+
+.container-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customers-comments {
+    display: flex;
+    margin-top: 8rem;
+    gap: 20px;
+}
+
+.card-customers {
+    background-color: var(--color-primary-dark);
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.irene {
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.anne {
+    margin-top: 40px;
+    margin-bottom: -40px;
+}
+
+.customers-hearder {
+    display: flex;
+    margin: 40px 0 0 30px;
+    gap: 20px;
+}
+
+.customers-hearder img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.author {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.author h3 {
+    color: var(--color-white);
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.author span {
+    color: var(--color-primary-soft);
+    font-size: 1.4rem;
+}
+
+.card-customers p {
+    margin: 30px 0 40px 30px;
+    font-size: 1.6rem;
+    padding-right: 50px;
+    color: var(--color-white);
+    line-height: 1.2;
+    font-weight: 400;
 }
