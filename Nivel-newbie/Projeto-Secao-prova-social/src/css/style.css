@@ -1,9 +1,85 @@
+html {
+    font-size: 62.5%;
+}
+
 body {
     font-family: "League Spartan", sans-serif;
     background-color: var(--color-white);
-    background-image: url(../images/bg-pattern-top-desktop.svg),
-                      url(../images/bg-pattern-bottom-desktop.svg);
+    background-image: 
+                    url(../images/bg-pattern-top-desktop.svg),
+                    url(../images/bg-pattern-bottom-desktop.svg);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    min-height: 100vh;
+}
+
+.container {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-top {
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+    gap: 20rem;
+}
+
+
+.intro h1 {
+    font-size: 5rem;
+    color: var(--color-primary-dark);
+    max-width: 350px;
+}
+
+.intro p {
+    margin-top: 35px;
+    font-size: 1.8rem;
+    max-width: 450px;
+    color: var(--color-neutral-dark);
+    line-height: 1.2;
+}
+
+.rating-item {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-neutral-light);
+    margin-top: 20px;
+    gap: 40px;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+.rating-item-1 {
+    margin-right: 80px;
+}
+
+.rating-item-2 {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.rating-item-3 {
+    margin-left: 80px;
+}
+
+.icon-star {
+    display: inline-block;
+    width: 100px;  
+    height: 20px;
+    background: 
+                url('../images/icon-star.svg') no-repeat 0 50%,
+                url('../images/icon-star.svg') no-repeat 20px 50%,
+                url('../images/icon-star.svg') no-repeat 40px 50%,
+                url('../images/icon-star.svg') no-repeat 60px 50%,
+                url('../images/icon-star.svg') no-repeat 80px 50%;
+    background-size: 15px 15px;
+}
+
+.rating-item .reviews {
+    padding-right: 50px;
+    color: var(--color-primary-dark);
+    font-weight: 700;
+    font-size: 1.6rem;
 }
