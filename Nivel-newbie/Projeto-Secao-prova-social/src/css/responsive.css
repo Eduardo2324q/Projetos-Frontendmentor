@@ -117,6 +117,10 @@
     .card-customers {
         width: 400px;
     }
+
+    .anne {
+        margin-bottom: 20px;
+    }
 }
 
 @media(max-width: 320px) {
