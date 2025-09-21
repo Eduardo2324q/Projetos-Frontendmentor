@@ -1,4 +1,8 @@
 @media(max-width: 1024px) {
+    .container {
+        height: 100dvh;
+    }
+
     .container-top {
         gap: 0;
         margin-left: 20px;
@@ -57,6 +61,7 @@
     }
 
     .customers-comments {
+        margin-top: 15rem;
         gap: 10px;
     }
 
@@ -64,7 +69,62 @@
         width: 230px;
     }
 
+}
+
+@media(max-width: 480px) {
+    .container-top {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .intro h1 {
+        text-align: center;
+        margin-left: 40px;
+    }
+
+    .intro p {
+        text-align: center;
+        padding: 0 40px ;
+        margin: 50px 0;
+    }
+
+    .rating-item {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .icon-star {
+        background: 
+                url('../images/icon-star.svg') no-repeat 0 50%,
+                url('../images/icon-star.svg') no-repeat 20px 50%,
+                url('../images/icon-star.svg') no-repeat 40px 50%,
+                url('../images/icon-star.svg') no-repeat 60px 50%,
+                url('../images/icon-star.svg') no-repeat 80px 50%;
+    background-size: 15px 15px;
+    }
+
     .customers-comments {
-        margin-top: 15rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .customers-comments {
+        gap: 20px;
+        margin-top: 10rem;
+    }
+
+    .card-customers {
+        width: 400px;
+    }
+}
+
+@media(max-width: 320px) {
+    .intro h1 {
+        margin-left: 0px;
+    }
+
+    .card-customers {
+        width: 280px;
     }
 }
