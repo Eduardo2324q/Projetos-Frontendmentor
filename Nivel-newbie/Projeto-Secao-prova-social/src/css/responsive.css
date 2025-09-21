@@ -1,0 +1,70 @@
+@media(max-width: 1024px) {
+    .container-top {
+        gap: 0;
+        margin-left: 20px;
+    }
+
+    .rating-item-2 {
+        margin-right: 40px;
+    }
+
+    .rating-item-3 {
+        margin-left: 80px;
+        margin-right: 20px;
+    }
+
+    .card-customers {
+        width: 300px;
+    }
+
+    .customers-comments {
+        margin-top: 20rem;
+    }
+}
+
+@media(max-width: 768px) {
+    .container-top {
+        gap: 0rem;
+        margin-left: 20px;
+    }
+
+    .rating-item-1 {
+        margin-right: 10px;
+
+    }
+    
+    .rating-item-2 {
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+    
+    .rating-item-3 {
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+
+    .icon-star {
+        background: 
+        url('../images/icon-star.svg') no-repeat 0 50%,
+        url('../images/icon-star.svg') no-repeat 18px 50%,
+        url('../images/icon-star.svg') no-repeat 35px 50%,
+        url('../images/icon-star.svg') no-repeat 52px 50%,
+        url('../images/icon-star.svg') no-repeat 70px 50%;
+    }
+
+    .rating-item .reviews {
+        padding-right: 0px;
+    }
+
+    .customers-comments {
+        gap: 10px;
+    }
+
+    .card-customers {
+        width: 230px;
+    }
+
+    .customers-comments {
+        margin-top: 15rem;
+    }
+}
